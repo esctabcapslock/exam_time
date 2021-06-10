@@ -6,6 +6,7 @@
 - 미니멀리즘(???)을 추구해봄.
 - 시차 보정
 - [시험 타운트다운 보러가기](https://esctabcapslock.github.io/exam_time/time)
+- [종강 카운트다운 보러가기](https://esctabcapslock.github.io/exam_time/vacation)
 - [졸업 카운트다운 보러가기](https://esctabcapslock.github.io/exam_time/graduation)
 
 ## 안드로이드 어플

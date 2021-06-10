@@ -1,13 +1,14 @@
 class Timer{
-    constructor(){
+    constructor(y,m,d,h,mn){
         this.zone = (new Date()).getTimezoneOffset();
         this.day = document.getElementById('day')
         this.time = document.getElementById('time')
         this.일 = document.getElementById('일')
         this.endtime = document.getElementById('endtime')
         this.week_n = document.getElementById('week_n')
-        this.end_time = new Date(2021,6-1,21,9-9,0);
-        this.endtime.innerHTML=`<span class='tfont'>2021-06-21</span> &nbsp; <span class='tfont'>09:00</span> 완료`
+        this.end_time = new Date(y,m-1,d,h-9,mn);
+        var w2=(x)=>(x>=10)?x: '0'+x.toString()
+        this.endtime.innerHTML=`<span class='tfont'>${y}-${w2(m)}-${w2(d)}</span> &nbsp; <span class='tfont'>${w2(h)}:${w2(mn)}</span> 완료`
         this.interval();
     }
     interval(){

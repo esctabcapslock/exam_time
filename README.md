@@ -5,7 +5,8 @@
 - 유명한 온라인 타이머 사이트 디자인 + 폰트 배낌
 - 미니멀리즘(???)을 추구해봄.
 - 시차 보정
-- [보러가기](https://esctabcapslock.github.io/exam_time/time)
+- [시험 타운트다운 보러가기](https://esctabcapslock.github.io/exam_time/time)
+- [졸업 카운트다운 보러가기](https://esctabcapslock.github.io/exam_time/graduation)
 
 ## 안드로이드 어플
 - exam_dday\app\src\main 의 파일을 업로드한 것임
